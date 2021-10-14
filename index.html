@@ -23,7 +23,7 @@
 	    <a href="#projects" class="text-white pr-2 pl-2"><span class="border-bottom border-warning body-f1">Projects</span></a>
 	    <!-- Button trigger modal -->
 <button type="button" class="btn btn-link text-white pt-0 pr-2 pl-2 body-f1" data-toggle="modal" data-target="#exampleModal">
-  <span class="border-bottom border-warning body-f1">Contact</span>
+  <a class="text-white"><span class="border-bottom border-warning body-f1">Contact</span></a>
 </button>
 
 <!-- Modal -->
@@ -185,8 +185,57 @@
             </div>
             <!-- Other Projects End -->
 
+            <!-- Contact Form Section Start -->
+            <div class="bg-dark text-light p-5" id="contacts1">
+              <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-8 col-xl-4">
+                  <h3>Contact Me</h3>
+                  <form class="border border-secondary bg-secondary p-3">
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Contact</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email / Phone">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- Modal -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal1" viewBox="0 0 16 16">
+                      Send Email
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="exampleModalLabel1">Thank you for contacting us!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="text-dark pt-0 pb-0 mb-0">Message Successfully Sent</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Contact Form Section End -->
+
 	<!-- Footer -->
-	<div class="text-center text-light mt-4 mb-4" id="contacts">
+	<div class="text-center text-light mt-4 mb-4">
 		<h4 class="body-f1">Connect</h4>
 		<a class="px-2" href="https://www.facebook.com/lordyeff" target="_blank"><img src="./images/fb-logo.png" class="logo rounded-circle"></a>
 		<a class="px-2" href="https://www.linkedin.com/in/jeffmg/" target="_blank"><img src="./images/link-logo.png" class="logo rounded-circle"></a>
