@@ -1,4 +1,4 @@
-#top-intro { 
+#top-intro {
 	background-image: url(./images/bg-1.jpeg);
 	background-repeat: no-repeat;
 	height: 600px;
@@ -8,21 +8,14 @@
 	background-color: #52514e;
 }
 
-/*#about-me {
-	height: 700px;
-	background-image: url(bg-2.jpeg);
-	background-color: #093c70;
-	background-repeat: no-repeat;
-}*/
-
 .header {
-	font-family: 'Georama', sans-serif;
+	font-family: "Georama", sans-serif;
 	letter-spacing: 0.5rem;
 }
 
 .body-f1 {
-	font-family: 'Georama', sans-serif;
-	font-family: 'Inconsolata', monospace;
+	font-family: "Georama", sans-serif;
+	font-family: "Inconsolata", monospace;
 }
 
 .carousel-item {
@@ -33,21 +26,26 @@
 	background-color: #093c70;
 }
 
-div.transbox p,h2,h3,h4,h6,h1 {
-  font-weight: bold;
-  opacity: 1;
+div.transbox p,
+h2,
+h3,
+h4,
+h6,
+h1 {
+	font-weight: bold;
+	opacity: 1;
 }
 
 div.background-j1 {
-  background: url(./images/bg-2.jpeg) repeat;
+	background: url(./images/bg-2.jpeg) repeat;
 }
 
 div.transbox {
-  background-color: #093c70;
-  opacity: 0.9;
+	background-color: #093c70;
+	opacity: 0.9;
 }
 
 .logo {
 	width: 30px;
-  	height: 30px;
+	height: 30px;
 }
